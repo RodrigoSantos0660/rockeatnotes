@@ -1,6 +1,8 @@
-import { Header } from '../../components/Header'
-import { Input } from '../../components/Input'
-import { TextArea } from '../../components/TextArea'
+import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
+import { TextArea } from '../../components/TextArea';
+import { NoteItem } from '../../components/Noteitem';
+import { Section } from '../../components/Section';
 
 import { Container, Form } from './styles'
 
@@ -17,6 +19,11 @@ export function New(){
 
             <Input placeholder='title' />
             <TextArea placeholder='Comments'/>
+            <Section title='links uteis'>
+              <NoteItem  />
+
+
+            </Section>
           </Form>
         </main>
 
