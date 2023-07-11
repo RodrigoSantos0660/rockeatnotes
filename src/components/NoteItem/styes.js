@@ -18,14 +18,22 @@ export const Container = styled.div`
     background:none;
   }
 
+  .button-delete{
+    color:${({ theme}) => theme.COLORS.RED}
+  }
+
+  .button-add{
+    color:${({ theme}) => theme.COLORS.ORANGE}
+  
+  }
+
   > input {
     height:56px;
     width:100%;
 
     padding:12px;
     color: ${({ theme }) => theme.COLORS.WHITE};
-    background:"transparent";
-
+    background-color: transparent;
     border:none;
     &::placeholder{
       color: ${({ theme }) => theme.COLORS.GRAY_300};
